@@ -1,0 +1,24 @@
+.Fixed-form
+  position: fixed
+  left: 0
+  bottom: 0
+  width: 100%
+  padding: 10px 15px 15px 15px
+  text-align: center
+  background: $blanco
+  z-index: 60
+  border-top: 1px solid $azul
+  opacity: 0
+  visibility: hidden
+  transform: translate3d(0, 100%, 0)
+  transition: opacity .3s, visibility .3s, transform .3s
+  form.bar-form
+    p
+      margin-bottom: 10px
+      span
+        display: inline
+
+.Fixed-form.show
+  opacity: 1
+  visibility: visible
+  transform: translate3d(0, 0, 0)

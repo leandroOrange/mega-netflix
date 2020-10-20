@@ -1,0 +1,48 @@
+.Producto-xview
+  padding: 100px 0
+  text-align: center
+  background: #000a15
+  overflow: hidden
+  position: relative
+  .back-image
+    position: absolute
+    left: 0
+    top: 85px
+    transform: translate3d(-63px, 0, 0)
+    opacity: .2
+    width: 100%
+    max-width: 380px
+  &__wrapper-col  
+    .mask
+      background: -webkit-linear-gradient(#e6f5ff,#00adff)
+      -webkit-background-clip: text
+    img
+      max-width: 180px
+      margin-bottom: 50px
+  &__title
+    color: #001f5f
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    max-width: 780px
+    margin: 0 auto
+    font-size: 39px
+    @extend %bold
+    margin-bottom: 40px
+  &__wrapper-images
+    img
+      display: block
+      width: 100%
+      margin: 0 auto
+    .compo
+      max-width: 800px
+      margin-bottom: 50px
+    .botonera
+      max-width: 470px 
+      margin-bottom: 50px
+    .xview-logo  
+      max-width: 180px
+      margin-bottom: 60px
+  &__cta
+    display: inline-block
+    padding: 8px 25px
+    background: transparent

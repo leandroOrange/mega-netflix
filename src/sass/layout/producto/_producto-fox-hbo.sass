@@ -1,0 +1,43 @@
+.Producto
+  padding: 80px 0
+  background: #fbfbfb
+  position: relative
+  overflow: hidden
+  &__wrapper-cols
+    justify-content: space-between
+    align-items: center
+  &__title
+    @extend %black
+    @extend %upper
+    font-size: 50px
+    line-height: 1.1
+    margin-bottom: 25px
+    span
+      display: block
+  &__title--fox
+    color: #ef6f21
+    background: -webkit-linear-gradient(#ef6f21,#ef891c)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &__title--hbo
+    color: #455a64
+    background: -webkit-linear-gradient(#455a64,#2196f3)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &__text
+    margin-bottom: 25px
+    h4, p
+      font-size: 19px
+    h4
+      margin-bottom: 10px
+      span
+        display: block
+  &__cta
+    display: inline-block
+    padding: 8px 25px
+  &__image
+    max-width: 100%
+    height: auto
+
+.Producto--fox
+  padding: 25px 0 80px 0

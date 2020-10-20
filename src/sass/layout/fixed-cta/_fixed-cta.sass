@@ -1,0 +1,30 @@
+#fixed-cta
+  position: fixed
+  width: 100%
+  bottom: 0
+  z-index: 55
+  opacity: 0
+  visibility: hidden
+  transition: opacity .3s, visibility .3s
+  a.fixed-cta
+    position: absolute
+    @extend %bold 
+    @extend %upper
+    right: 201px
+    bottom: -2px
+    display: inline-block
+    color: $blanco
+    font-size: 14px
+    letter-spacing: 1px
+    background: $rojo
+    padding: 6px 20px
+    border-radius: 6px 6px 0 0 
+    border: 1px solid $rojo
+    transition: background .3s, color .3s
+    &:hover
+      background: darken($rojo, 20%)
+
+
+#fixed-cta.show
+  opacity: 1
+  visibility: visible

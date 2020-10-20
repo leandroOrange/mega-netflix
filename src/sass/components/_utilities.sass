@@ -1,0 +1,70 @@
+/*Uppercase*/
+%upper 
+  text-transform: uppercase
+.upper
+  @extend %upper  
+
+/* Lowe Case */   
+%lower
+  text-transform: lowercase
+.lower
+  @extend %lower  
+
+
+/* Fuentes */  
+%regular
+  font-weight: 400
+.regular
+  @extend %regular
+
+
+%bold
+  font-weight: 700
+.bold
+  @extend %bold  
+
+%black
+  font-weight: 900
+.black
+  @extend %black  
+
+/* Botones */
+.btn-g    
+  letter-spacing: 1px
+  @extend %bold 
+  @extend %upper
+  border-radius: 6px
+  transition: color .3s ease, background .3s ease
+
+
+// BTN BLUE
+%btn-blue
+  border: 2px solid $azul
+
+.btn-blue-filled
+  @extend %btn-blue
+  background: $azul
+  color: $blanco
+  &:hover
+    background: $blanco
+    color: $azul
+
+.btn-blue-outline
+  @extend %btn-blue
+  background: $blanco
+  color: $azul
+  &:hover
+    background: $azul
+    color: $blanco
+
+// BTN ORANGE
+%btn-orange
+  border: 2px solid $rojo
+
+.btn-orange-filled
+  @extend %btn-orange
+  background: $rojo
+  color: $blanco
+  &:hover
+    background: $blanco
+    color: $rojo

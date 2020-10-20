@@ -1,0 +1,63 @@
+form.bar-form
+  font-size: 14px
+  p
+    @extend %upper 
+    @extend %bold 
+    color: $gris
+    margin-bottom: 4px
+  .grid-bar-form
+    max-width: 445px
+    margin: 0 auto
+    display: grid
+    grid-template-columns: 60% 40%
+    input
+      border: 2px solid $azul
+      padding: 10px 16px
+    input.g-input
+      border-radius: 6px 0 0 6px
+    input[type="submit"]
+      border-radius: 0 6px 6px 0
+
+form.bar-form.fixed-bottom-form
+  p
+    font-size: 10px
+
+form.bar-form.rojo
+  p
+    color: $blanco
+  .grid-bar-form
+    input
+      border: 2px solid $rojo
+    input.g-input
+    input[type="submit"]
+      background: $rojo
+      &:hover
+        background: transparent 
+        color: $blanco
+  
+.bar-form__status
+  position: absolute
+  max-width: 445px
+  margin: 0 auto
+  margin-top: 11px
+  z-index: 10
+  display: none
+  .error-text
+    position: relative
+    background: $rojo
+    color: $blanco
+    padding: 5px 8px
+    border-radius: 6px
+    &:after
+      left: 25px
+      content: ''
+      position: absolute
+      pointer-events: none
+      height: 10px
+      width: 10px
+      background-color: $rojo
+      border: 2px
+      border-radius: 2px
+      transform: translateY(50%)
+      transform: rotate(45deg)
+      top: -4px

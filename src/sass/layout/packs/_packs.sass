@@ -1,0 +1,105 @@
+.Packs
+  padding: 130px 0 100px 0
+  text-align: center
+  background: #f3f3f3
+  &__wrapper-titles
+    margin-bottom: 70px
+  &__title
+    @extend %bold
+    color: $azul
+    font-size: 39px
+    margin-bottom: 15px
+    span
+      display: block
+  &__subtitle
+    font-size: 24px
+    color: $negro
+    span
+      display: block
+
+.Packs__prices
+  justify-content: center
+  .Pack-card
+    display: inline-block
+    &:hover .btn-card
+      background: $azul
+      color: $blanco
+    img
+      transition: transform .3s, opacity .3s
+    .btn-card
+      display: inline-block
+      width: 100%
+      max-width: 230px
+      margin-top: 20px
+      padding: 8px 25px
+      font-size: 15px
+
+.cards-packs.un-selected
+  img
+    opacity: .5
+    transform: scale(0.95)
+
+.cards-packs.selected
+  img
+    transform: scale(1.05)
+
+.packs-owl-carousel-column
+  display: none
+  margin-top: 30px
+  .owl-dots
+    margin-top: 32px
+
+.owl-prev, .owl-next
+  margin: 0
+  span
+    font-size: 25px
+    padding: 0px 16px
+    line-height: 25px
+    color: #ffffff
+    &:focus
+      outline: 0 !important
+
+.owl-nav
+  position: absolute
+  top: -45px
+  left: 50%
+  transform: translate3d(-50%, 0, 0)
+  button:nth-of-type(1)
+    margin-right: 20px
+  button
+    background: $azul !important
+    transition: background .3s ease
+    &:focus
+      outline: 0 !important
+    &:hover
+      background: lighten(#1a1a1a, 15%) !important
+
+.owl-prev, .owl-next
+  margin: 0
+  span
+    font-size: 25px
+    padding: 0px 16px
+    line-height: 25px
+    color: #ffffff
+    &:focus
+      outline: 0 !important
+
+.owl-carousel button.owl-dot
+  padding: 8px 12px !important
+  &:hover
+    span
+      background: darken($blanco, 50%)
+  span
+    display: inline-block
+    width: 12px
+    height: 12px
+    background: darken($blanco, 80%)
+    border: none
+    padding: 0!important
+    border-radius: 50%
+    transition: background .3s ease
+    &:focus
+      outline: none
+.owl-dot.active
+  span
+    background: $azul !important

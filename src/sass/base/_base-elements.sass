@@ -1,0 +1,44 @@
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body, html
+  font-size: 16px
+  font-family: 'Montserrat', sans-serif
+  @extend %regular
+  color: $gris
+
+body#body
+  overflow: hidden
+
+body#body.show
+  overflow: auto
+    
+
+h1, h2, h3, h4, h5, h6, ul, ol, p
+  margin: 0
+
+ul
+  li
+    list-style: none
+
+a
+  text-decoration: none
+  cursor: pointer !important
+
+a, button, input
+  &:focus
+    outline: none
+  &:hover
+    text-decoration: none
+
+input
+  -webkit-appearance: none
+
+form
+  position: relative
+
+form#form-2
+  p
+    color: $blanco

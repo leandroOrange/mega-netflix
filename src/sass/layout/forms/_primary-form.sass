@@ -1,0 +1,58 @@
+.Wrapper-primary-form
+  background: #fbfbfb
+  border-radius: 8px
+  box-shadow: 0 0 15px #b9b9b9
+  width: 100%
+  max-width: 765px
+  margin: 0 auto
+  color: #2b2b2b
+  transform: translate3d(0, 50%, 0)
+  z-index: 1
+  .bottom-form
+    text-align: center
+    padding: 20px 20px 18px 20px
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 15px
+    .grid-col-1
+      display: grid
+      grid-template-columns: 68px 1fr
+      gap: 15px
+      .bodymovin
+        align-self: center
+      h5
+        font-size: 26px
+        margin-bottom: 11px
+        @extend %bold
+        span
+          font-size: 16px
+          display: block
+          @extend %regular
+      p.aclaracion
+        font-size: 14px
+        margin-bottom: 5px
+        span
+          @extend %bold
+
+form.primary-form
+  input
+    text-align: center
+    min-width: 100%
+    height: 40px
+  input.g-input
+    border: 1px solid $azul
+    margin-bottom: 10px
+    border-radius: 6px
+    transition: border .3s
+    &:hover
+      border: 1px solid #cccccc
+    &:focus
+      border: 2px solid $azul
+  input[type="submit"]
+      font-size: 18px
+
+.primary-form__status
+  font-size: 15px
+  .error-text
+    color: $rojo
+    margin-top: 15p

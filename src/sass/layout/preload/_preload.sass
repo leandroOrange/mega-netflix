@@ -1,0 +1,34 @@
+#preload
+  position: fixed
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 999999999
+  background: $blanco
+  transition: opacity .5s ease, visibility .5s ease
+  text-align: center
+  // .inner-preload
+  //   img
+  //     max-width: 220px
+  //     display: block
+  //     margin-bottom: 30px
+  //   svg.progress-circle 
+  //     transform: rotate(-90deg)
+  //     width: 60px
+  //     circle 
+  //       stroke-width: 13px
+  //       fill: none
+  //     .circle-grey
+  //       stroke: #cccccc
+  //     .progress__value 
+  //       stroke: $azul-oscuro
+  //       stroke-dasharray: 339.292
+  //       stroke-dashoffset: 339.292
+
+#preload.hide
+  opacity: 0
+  visibility: hidden
