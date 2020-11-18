@@ -6,13 +6,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col Hero__wrapper-title">
-        <img src="assets/img/promo/titulo-3.png" alt="Titulo" data-aos="fade-up">
+      <div class="col">
+        <div class="bodymovin lottie-hero-1" data-animation-path="assets/img/promo/titulo.json" data-anim-loop="true" data-anim-type="svg" data-name="ninja"></div>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <div class="bodymovin" data-animation-path="assets/img/promo/nuevo-hero.json" data-anim-loop="true" data-anim-type="svg" data-name="ninja"></div>
+        <div class="col">
+          <div class="bodymovin lottie-hero-2" data-animation-path="assets/img/promo/hero.json" data-anim-loop="true" data-anim-type="svg" data-name="ninja"></div>
+        </div>
       </div>
     </div>
     <div class="row">

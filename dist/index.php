@@ -192,7 +192,7 @@ switch (($_GET['campaign'])) {
   <?php include 'templates/preload/preload.php';?>
   <?php include 'templates/header/header.php';?>
   <?php include 'templates/hero/hero.php';?>
-  <?php include 'templates/packs/packs.php';?>
+  <!-- <?php include 'templates/packs/packs.php';?> -->
   <?php include 'templates/producto/producto-hbo.php';?>
   <!-- <?php include 'templates/producto/producto-fox.php';?> -->
   <?php include 'templates/producto/producto-xview.php';?>
