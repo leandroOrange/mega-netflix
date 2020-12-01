@@ -7,13 +7,13 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="bodymovin lottie-hero-1" data-animation-path="assets/img/promo/titulo.json" data-anim-loop="true" data-anim-type="svg" data-name="ninja"></div>
+        <div class="bodymovin lottie-hero-1" data-animation-path="assets/img/promo/titulo.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <div class="col">
-          <div class="bodymovin lottie-hero-2" data-animation-path="assets/img/promo/hero.json" data-anim-loop="true" data-anim-type="svg" data-name="ninja"></div>
+          <div class="bodymovin lottie-hero-2" data-animation-path="assets/img/promo/hero.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div>
         </div>
       </div>
     </div>

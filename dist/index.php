@@ -63,6 +63,12 @@ switch (($_GET['campaign'])) {
     break; 
   case 'web':
     $token = $orange->get('token-web');
+    break;
+  case 'conv':
+    $token = $orange->get('conv');
+    break;
+  case 'video':
+    $token = $orange->get('video');
     break;   
   default:
     $token = '';
@@ -192,7 +198,7 @@ switch (($_GET['campaign'])) {
   <?php include 'templates/preload/preload.php';?>
   <?php include 'templates/header/header.php';?>
   <?php include 'templates/hero/hero.php';?>
-  <!-- <?php include 'templates/packs/packs.php';?> -->
+  <?php include 'templates/packs/packs.php';?>
   <?php include 'templates/producto/producto-hbo.php';?>
   <!-- <?php include 'templates/producto/producto-fox.php';?> -->
   <?php include 'templates/producto/producto-xview.php';?>

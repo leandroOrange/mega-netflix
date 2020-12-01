@@ -21,7 +21,7 @@ const cities = [
   "guadalajara",
   "tuxtla",
 ]
-const orangeCamp = ["fb-branding", "web"]
+const orangeCamp = ["fb-branding", "web", "conv", "video"]
 
 function renderList(cities, camps) {
   cities.forEach((city) => {
