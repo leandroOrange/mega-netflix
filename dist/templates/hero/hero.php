@@ -5,9 +5,10 @@
         <?php include 'templates/forms/bar-form.php';?>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="bodymovin lottie-hero-1" data-animation-path="assets/img/promo/titulo.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <img src="assets/img/promo/titulo-entero.png" alt="" class="img-fluid">
+       <!--  <div class="bodymovin lottie-hero-1" data-animation-path="assets/img/promo/titulo.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div> -->
       </div>
     </div>
     <div class="row">
