@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col">
         <div class="col">
-          <div class="bodymovin lottie-hero-2" data-animation-path="assets/img/promo/<?=$orange->get('_sublanding');?>/hero.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div>
+          <div class="bodymovin lottie-hero-2" data-animation-path="assets/img/promo/<?=$orange->get('_sublanding');?>/new-hero.json" data-anim-loop="false" data-anim-type="svg" data-name="ninja"></div>
         </div>
       </div>
     </div>
