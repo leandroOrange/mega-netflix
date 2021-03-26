@@ -144,8 +144,8 @@ if (($_GET['ag']) === 'or') {
   <div class="wrapper-typ">
     <div>
       <img src="assets/img/global/logo-megacable-blanco.png" alt="logo-megacable">
-      <h2>Tu solicitud ha sido procesada,</h2>
-      <p>nos comunicaremos contigo a la brevedad.</p>
+      <h2>Recibirás una llamada del número 3396901500 para atender tu solicitud</h2>
+      <p>*Nuestro horario de atención es de Lunes a Domingo de 08:00 AM a 10:00 PM (Hora del Centro de México), lo contactaremos en cuanto reanudemos actividades.</p>
     </div>
   </div>
 
